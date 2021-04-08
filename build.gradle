@@ -6,7 +6,7 @@ repositories {
     mavenCentral()
 }
 
-def selenideVersion = "5.19.0",
+def selenideVersion = "5.20.0",
     junitVersion = "5.7.1"
 
 dependencies {
@@ -19,6 +19,7 @@ dependencies {
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
 
 test {
     useJUnitPlatform()

@@ -51,8 +51,8 @@ public class Test1 {
         $("#city").click();
         $("#react-select-4-input").setValue(city).pressEnter();
         // скролим страницу чтобы элемент submit стал доступен
-        //$("#submit").scrollIntoView(true);
-        //$("#submit").click();
+        // $("#submit").scrollIntoView(true);
+        // $("#submit").click();
         $("#submit").scrollTo().click();
 
 

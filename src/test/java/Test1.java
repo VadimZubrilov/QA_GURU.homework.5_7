@@ -52,7 +52,7 @@ public class Test1 {
         $("#react-select-4-input").setValue(city).pressEnter();
         // скролим страницу чтобы элемент submit стал доступен
         $("#submit").scrollTo().click();
-
+1
 
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
         $(".modal-content").shouldHave(text(name + " " + lasName),
